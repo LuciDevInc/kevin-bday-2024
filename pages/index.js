@@ -13,6 +13,7 @@ export default function Index({ posts, globalData }) {
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <h1 className="text-3xl lg:text-5xl text-center mb-12">
+        <br></br>
         <Link href="/">{globalData.blogTitle}</Link>
       </h1>
       <Header name={globalData.name} />
