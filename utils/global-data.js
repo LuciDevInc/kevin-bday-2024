@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Spielregeln:';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'By Zora, Mucki und Luci <3';
+    : 'By Zora, Mukki und Luci <3';
 
   return {
     name,
