@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Danube Delight';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'By Zora, Mukki und Luci <3';
+    : 'By Zora, Mukki and Luci <3';
 
   return {
     name,
