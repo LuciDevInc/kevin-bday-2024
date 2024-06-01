@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Danube Delight';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Spielregeln:';
+    : 'Danube Delight';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'By Zora, Mukki und Luci <3';
