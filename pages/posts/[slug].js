@@ -50,6 +50,7 @@ export default function PostPage({
           {frontMatter.description && (
             <p className="text-xl mb-4">{frontMatter.description}</p>
           )}
+          <line></line>
         </header>
         <main>
           <article className="prose dark:prose-dark">
